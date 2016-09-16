@@ -48,6 +48,13 @@ typedef struct
 #define HIGH 0x1
 #define LOW  0x0
 
+#define LSBFIRST 0x0
+#define MSBFIRST 0x1
+
+#define CHANGE 	1
+#define FALLING	2
+#define RISING 	3
+
 void configArduino();
 void configSysTick();
 uint32_t millis();
